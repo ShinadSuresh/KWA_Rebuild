@@ -1,0 +1,12 @@
+@keyframes mymove {
+    from {
+        right: -50px;
+    }
+    to {
+        right: 0;
+    }
+}
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); } /* Adjusted for 8 slides */
+}

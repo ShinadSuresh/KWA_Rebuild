@@ -1,0 +1,157 @@
+@mixin breakpoint($point) {
+    @if $point == mx280 {
+      @media (max-width: 280px) {
+        @content;
+      }
+    }@if $point == mx281 {
+      @media (min-width: 281px) {
+        @content;
+      }
+    }@if $point == mx375 {
+      @media (max-width: 375px) {
+        @content;
+      }
+    } @else if $point == mx480 {
+      @media (max-width: 480px) {
+        @content;
+      }
+    } @else if $point == mn481 {
+      @media (min-width: 481px) {
+        @content;
+      }
+    }@else if $point == mx575 {
+      @media (max-width: 575px) {
+        @content;
+      }
+    } @else if $point == mn578 {
+      @media (min-width: 578px) {
+        @content;
+      }
+    } @else if $point == mx680 {
+      @media (max-width: 680px) {
+        @content;
+      }
+    } @else if $point == mn681 {
+      @media (min-width: 681px) {
+        @content;
+      }
+    } @else if $point == mx767 {
+      @media (max-width: 767px) {
+        @content;
+      }
+    } @else if $point == mn768 {
+      @media (min-width: 768px) {
+        @content;
+      }
+    }@else if $point == mx800 {
+      @media (max-height: 800px) {
+        @content;
+      }
+    } @else if $point == mx991 {
+      @media (max-width: 991px) {
+        @content;
+      }
+    } @else if $point == mn992 {
+      @media (min-width: 992px) {
+        @content;
+      }
+    } @else if $point == mx1024 {
+      @media (max-width: 1024px) {
+        @content;
+      }
+    } @else if $point == mn1025 {
+      @media (min-width: 1025px) {
+        @content;
+      }
+    } @else if $point == mx1199 {
+      @media (max-width: 1199px) {
+        @content;
+      }
+    } @else if $point == mn1200 {
+      @media (min-width: 1200px) {
+        @content;
+      }
+    } @else if $point == mx1279 {
+      @media (max-width: 1279px) {
+        @content;
+      }
+    } @else if $point == mn1280 {
+      @media (min-width: 1280px) {
+        @content;
+      }
+    } @else if $point == mn1367 {
+      @media (min-width: 1367px) {
+        @content;
+      }
+    } @else if $point == mx1366 {
+      @media (max-width: 1366px) {
+        @content;
+      }
+    } @else if $point == mx1425 {
+      @media (max-width: 1425px) {
+        @content;
+      }
+    } @else if $point == mx1450 {
+      @media (max-width: 1450px) {
+        @content;
+      }
+    } @else if $point == mn1426 {
+      @media (min-width: 1426px) {
+        @content;
+      }
+    } @else if $point == mx1499 {
+        @media (max-width: 1499px) {
+          @content;
+        }
+    } @else if $point == mx1599 {
+      @media (max-width: 1599px) {
+        @content;
+      }
+    }@else if $point == mn1600 {
+      @media (min-width: 1600px) {
+        @content;
+      }
+    }@else if $point == mx1680 {
+      @media (max-width: 1680px) {
+        @content;
+      }
+    }@else if $point == mx1720 {
+      @media (max-width: 1720px) {
+        @content;
+      }
+    }@else if $point == mx1850 {
+        @media (max-width: 1850px) {
+          @content;
+        }
+    } @else if $point == mx1920 {  //(FHD)
+      @media (max-width: 1920px) {
+        @content;
+      }
+    }@else if $point == mn1921{  //(FHD)
+      @media (min-width: 1920px) {
+        @content;
+      }
+    }@else if $point == mn2000 {  //(QHD or WQHD)
+      @media (min-width: 2000px) {
+        @content;
+      }
+    }@else if $point == mx2560 {  //(QHD or WQHD)
+      @media (max-width: 2560px) {
+        @content;
+      }
+    }@else if $point == mn2561 {  //(QHD or WQHD)
+        @media (min-width: 2560px) {
+          @content;
+        }
+    }
+    @else if $point == mx3440 {  // (Ultrawide QHD)
+      @media (max-width: 3440px) {
+        @content;
+      }
+    }@else if $point == mx3840 {  //(4K UHD)
+      @media (max-width:3840px) {
+        @content;
+      }
+    }
+  }
+  

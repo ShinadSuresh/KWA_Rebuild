@@ -1,0 +1,903 @@
+// .aboutUs-banner{
+//     .template-containerMaxWth{
+//         .Privacy-policty-all{
+//             margin-bottom: 45px;
+//             @include breakpoint(mx1366){
+//                 margin-bottom: 38px;
+//             }
+//             @include breakpoint(mx991){
+//                 margin-bottom: 32px;
+//             }
+//             @include breakpoint(mx680){
+//                 margin-bottom: 20px;
+//             }
+//             .prvcy-hd-btn{
+//                 top: 66px;
+//                 @include breakpoint(mx800){
+//                     top: 66px;
+//                 }
+//                 @include breakpoint(mx680){
+//                     top: 57px;
+//                 }
+//                 h1{
+//                     color: var(--white) !important;
+//                 }
+//             }
+//             &::after{
+//                 background: linear-gradient(90deg, #000 23%, transparent 136%) !important;
+//             }
+//         }
+//         .about-kitko{
+//             display: flex;
+//             align-items: center;
+//             justify-content: center;
+//             flex-direction: column;
+//             max-width: 1347px;
+//             margin: 0 auto;
+//             .kitko-logo{
+//                 img{
+//                     max-width: 255px;
+//                     width: 100%;
+//                     height: 136px;
+//                     @include breakpoint(mx1366){
+//                         max-width: 222px;
+//                         width: 100%;
+//                         height: 110px;
+//                     }
+//                     @include breakpoint(mx991){
+//                         max-width: 206px;
+//                         width: 100%;
+//                         height: 100px;
+//                     }
+//                     @include breakpoint(mx800){
+//                         max-width: 206px;
+//                         width: 100%;
+//                         height: 100px;
+//                     }
+//                     @include breakpoint(mx991){
+//                         max-width: 190px;
+//                         width: 100%;
+//                         height: 80px;
+//                     }
+//                     @include breakpoint(mx991){
+//                         max-width: 112px;
+//                         width: 100%;
+//                         height: 70px;
+//                     }
+//                 }
+//             }
+//             h2{
+//                 text-align: center;
+//                 @include font-family(30px, 500, 44px);
+//                 color: var(--c2d);
+//                 max-width: 932px;
+//                 padding-bottom: 20px;
+//                 padding-top: 44px;
+//                 @include breakpoint(mx1366){
+//                     font-size: 26px;
+//                     line-height: 32px;
+//                     padding-bottom: 20px;
+//                     padding-top: 26px;
+//                 }
+//                 @include breakpoint(mx991){
+//                     font-size: 22px;
+//                     line-height: 26px;
+//                     padding-bottom: 18px;
+//                     padding-top: 18px;
+//                 }
+//                 @include breakpoint(mx800){
+//                     font-size: 22px;
+//                     line-height: 26px;
+//                     padding-bottom: 18px;
+//                     padding-top: 18px;
+//                 }
+//                 @include breakpoint(mx680){
+//                     font-size: 20px;
+//                     line-height: 26px;
+//                     padding-bottom: 12px;
+//                     padding-top: 12px;
+//                 }
+//                 span{
+//                     color: var(--theme-colour1);
+//                     font-weight: 700;
+//                 }
+//             }
+//             p{
+//                 text-align: center;
+//                 @include breakpoint(mx680){
+//                     display: -webkit-box;
+//                     -webkit-box-orient: vertical;
+//                     -webkit-line-clamp: 8; /* Limit to 3 lines */
+//                     overflow: hidden; /* Hide overflow text */
+//                     text-overflow: ellipsis; /* Add ellipsis for overflow text */
+//                 }
+//             }
+//         }
+//     }
+// }
+.newsKwa-scrlng {
+    background-color: var(--theme-colour1);
+    margin-top: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    @include breakpoint(mx1366){
+        margin-top: 20px;
+    }
+    @include breakpoint(mx991){
+        margin-top: 16px;
+    }
+    @include breakpoint(mx800){
+        margin-top: 16px;
+    }
+    @include breakpoint(mx680){
+        margin-top: 12px;
+    }
+    @include breakpoint(mx480){
+        margin-top: 8px;
+    }
+    .template-containerMaxWth {
+        .Kwa-Nws {
+            display: flex;
+            gap: 60px;
+            padding: 9px 0;
+            min-width: 100%;
+            animation: scrollText 15s linear infinite;
+
+            p {
+                color: var(--white);
+                white-space: nowrap;
+            }
+        }
+    }
+}
+
+@keyframes scrollText {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+
+.about-excellance{
+    margin-top: 60px;
+    @include breakpoint(mx1366){
+        margin-top: 40px;
+    }
+    @include breakpoint(mx991){
+        margin-top: 30px;
+    }
+    @include breakpoint(mx800){
+        margin-top: 30px;
+    }
+    @include breakpoint(mx680){
+        margin-top: 20px;
+    }
+    .template-containerMaxWth{
+        .about-excellance-all{
+            .about-grid{
+                padding: 88px 100px;
+                background-color: var(--white);
+                border-radius: 30px;
+                box-shadow: 0 9px 64px rgba(0.6, 0, 0, 0.1);
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 85px 60px;
+                margin-bottom: 60px;
+                @include breakpoint(mx1680){
+                    margin-bottom: 50px;
+                    gap: 50px;
+                }
+                @include breakpoint(mx1366){
+                    margin-bottom: 40px;
+                    padding: 60px;
+                    gap: 40px;
+                    border-radius: 20px;
+                }
+                @include breakpoint(mx991){
+                    margin-bottom: 30px;
+                    padding: 40px;
+                    gap: 30px;
+                    grid-template-columns: repeat(2, 1fr);
+                }
+                @include breakpoint(mx800){
+                    margin-bottom: 30px;
+                    padding: 30px;
+                }
+                @include breakpoint(mx767){
+                    padding: 32px;
+                    margin-bottom: 20px;
+                    border-radius: 16px;
+                    gap: 20px;
+                }
+                @include breakpoint(mx680){
+                    margin-bottom: 20px;
+                    padding: 30px;
+                    grid-template-columns: repeat(1, 1fr);
+                    gap: 10px;
+                    border-radius: 10px;
+                }
+                @include breakpoint(mx480){
+                    padding: 20px;
+                    // margin-top: -668px;
+                }
+                .about-card{
+                    background: white;
+                    border-radius: 12px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 22px;
+                    max-width: 450px;
+                    width: 100%;
+                    min-height: 262px;
+                    height: 100%;
+                    @include breakpoint(mx1366){
+                        min-height: 146px;
+                        gap: 18px;
+                    }
+                    @include breakpoint(mx991){
+                        gap: 16px;
+                    }
+                    @include breakpoint(mx800){
+                        gap: 12px;
+                        min-height: 10px;
+                    }
+                    @include breakpoint(mx767){
+                        max-width: 100%;
+                        min-height: 148px;
+                    }
+                    @include breakpoint(mx680){
+                        gap: 12px;
+                        min-height: 100px;
+                    }
+                    .crd-icn-hd{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 16px;
+                        @include breakpoint(mx1366){
+                            display: flex;
+                            flex-direction: initial;
+                            align-items: center;
+                            gap: 20px;
+                        }
+                        svg{
+                            width: 81px;
+                            height: 81px;
+                            @include breakpoint(mx1366){
+                                width: 62px;
+                                height: 62px;
+                            }
+                            @include breakpoint(mx991){
+                                width: 42px;
+                                height: 42px;
+                            }
+                            @include breakpoint(mx800){
+                                width: 36px;
+                                height: 36px;
+                            }
+                            @include breakpoint(mx767){
+                                width: 36px;
+                                height: 36px;
+                            }
+                            @include breakpoint(mx680){
+                                width: 32px;
+                                height: 32px;
+                            }
+                        }
+                        h3 {
+                            @include font-family(24px, 500, 30px);
+                            color: var(--c2d);
+                            @include breakpoint(mx1366){
+                                font-size: 22px;
+                                line-height: 28px;
+                            }
+                            @include breakpoint(mx991){
+                                font-size: 18px;
+                                line-height: 24px;
+                            }
+                            @include breakpoint(mx800){
+                                font-size: 16px;
+                                line-height: 22px;
+                            }
+                            @include breakpoint(mx680){
+                                font-size: 16px;
+                                line-height: 22px;
+                            }
+                        }
+                    }
+                    p {
+                        color: #3e3e3e;
+                        display: -webkit-box;
+                        -webkit-box-orient: vertical;
+                        -webkit-line-clamp: 4; /* Limit to 3 lines */
+                        overflow: hidden; /* Hide overflow text */
+                        text-overflow: ellipsis; /* Add ellipsis for overflow text */
+                    }
+                }
+                .footer-card {
+                    background: var(--theme-colour1);
+                    color: white;
+                    border-radius: 12px;
+                    padding: 67px 53px;
+                    align-items: center;
+                    justify-content: center;
+                    @include breakpoint(mx1680){
+                        padding: 50px;
+                    }
+                    @include breakpoint(mx1366){
+                        padding: 26px;
+                    }
+                    @include breakpoint(mx991){
+                        padding: 20px;
+                    }
+                    @include breakpoint(mx800){
+                        padding: 20px;
+                    }
+                    @include breakpoint(mx680){
+                        padding: 20px;
+                        border-radius: 10px;
+                    }
+                    h2 {
+                        @include font-family(30px, 600, 40px);
+                        display: -webkit-box;
+                        -webkit-box-orient: vertical;
+                        -webkit-line-clamp: 4; /* Limit to 3 lines */
+                        overflow: hidden; /* Hide overflow text */
+                        text-overflow: ellipsis; /* Add ellipsis for overflow text */
+                        color: var(--cd);
+                        @include breakpoint(mx1366){
+                            font-size: 22px;
+                            line-height: 28px;
+                        }
+                        @include breakpoint(mx991){
+                            font-size: 20px;
+                            line-height: 26px;
+                        }
+                        @include breakpoint(mx800){
+                            font-size: 18px;
+                            line-height: 24px;
+                        }
+                        @include breakpoint(mx680){
+                            font-size: 18px;
+                            line-height: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.Ministers-Adminstratives{
+    background-color: var(--theme-colour1);
+    .template-containerMaxWth{
+        .Mnstrs-admn-all{
+            display: flex;
+            position: relative;
+            @include breakpoint(mx1279){
+                justify-content: center;
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: -50px;
+                    width: 100%;
+                    height: 100%;
+                    background-image: url("../Assets/Pinarayi\ Vijayan.png"); // Replace with your image URL
+                    background-size: cover;
+                    background-position: center;
+                    opacity: 0.5; // Adjust transparency if needed
+                    z-index: 0; // Keep it behind the text
+                }
+            }
+            .mntst-adm-left{
+                display: flex;
+                align-items: center;
+                gap: 60px;
+                padding: 104px 0;
+                @include breakpoint(mx1680){
+                    gap: 30px;
+                }
+                @include breakpoint(mx767){
+                    flex-direction: column;
+                    padding: 40px 0;
+                }
+                @include breakpoint(mx680){
+                    gap: 20px;
+                    padding: 20px 0;
+                }
+                .mnstr-wtrRsrs{
+                    background-color: #617EC7;
+                    padding: 12px;
+                    border-radius: 18px;
+                        .mntst-img{
+                            max-width: 366px;
+                            width: 100%;
+                            height: 377px;
+                            @include breakpoint(mx1366){
+                                max-width: 322px;
+                                height: 328px;
+                            }
+                            @include breakpoint(mx1199){
+                                max-width: 248px;
+                                height: 272px;
+                            }
+                            @include breakpoint(mx767){
+                                max-width: 225px;
+                                height: 220px;
+                            }
+                            img{
+                                border-radius: 10px;
+                                height: 100%;
+                                width: 100%;
+                                object-fit: cover;
+                            }
+                        }
+                        .mnstr-dtls{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            margin-top: 16px;
+                            gap: 8px;
+                            h3{
+                                @include font-family(24px, 500, 30px);
+                                text-align: center;
+                                color:var(--white);
+                                @include breakpoint(mx1680){
+                                    font-size: 22px;
+                                    line-height: 32px;
+                                }
+                                @include breakpoint(mx1366){
+                                    font-size: 20px;
+                                    line-height: 26px;
+                                }
+                                @include breakpoint(mx767){
+                                    font-size: 16px;
+                                    line-height: 22px;
+                                }
+                            }
+                            p{
+                                @include font-family(20px, 400, 26px);
+                                color:var(--white);
+                                max-width: 200px;
+                                text-align: center;
+                                @include breakpoint(mx1680){
+                                    font-size: 18px;
+                                    line-height: 22px;
+                                }
+                                @include breakpoint(mx1366){
+                                    font-size: 16px;
+                                    line-height: 20px;
+                                }
+                                @include breakpoint(mx767){
+                                    font-size: 14px;
+                                    line-height: 20px;
+                                }
+                            }
+                        }
+                        
+                }
+                .Administration-teams{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    gap: 40px;
+                    @include breakpoint(mx1366){
+                        gap: 20px;
+                    }
+                    @include breakpoint(mx680){
+                        gap: 10px;
+                    }
+                    .admnistatives{
+                        background-color: #617EC7;
+                        padding: 12px;
+                        border-radius: 18px;
+                            .admn-img{
+                                max-width: 244px;
+                                width: 100%;
+                                height: 239px;
+                                @include breakpoint(mx1366){
+                                    max-width: 212px;
+                                    height: 200px;
+                                }
+                                @include breakpoint(mx680){
+                                    max-width: 212px;
+                                    height: 170px;
+                                }
+                                @include breakpoint(mx480){
+                                    max-width: 212px;
+                                    height: 140px;
+                                }
+                                img{
+                                    border-radius: 10px;
+                                    height: 100%;
+                                    width: 100%;
+                                    object-fit: cover;
+                                }
+                            }
+                            .admnst-dtls{
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                margin-top: 8px;
+                                gap: 8px;
+                                h3{
+                                    @include font-family(20px, 500, 28px);
+                                    color:var(--white);
+                                    text-align: center;
+                                    @include breakpoint(mx1680){
+                                        font-size: 18px;
+                                        line-height: 24px;
+                                    }
+                                    @include breakpoint(mx1366){
+                                        font-size: 16px;
+                                        line-height: 22px;
+                                    }
+                                }
+                                p{
+                                    @include font-family(16px, 400, 22px);
+                                    color:var(--white);
+                                    text-align: center;
+                                    @include breakpoint(mx1366){
+                                        font-size: 14px;
+                                        line-height: 20px;
+                                    }
+                                }
+                            }
+                            
+                    }
+                }
+            }
+            .mntst-adm-rght{
+                display: flex;
+                align-items: flex-end;
+                @include breakpoint(mx1279){
+                    display:none;
+                }
+                .chief-minister{
+                    max-width: 680px;
+                    width: 100%;
+                    height: 790px;
+                    position: relative;
+                    @include breakpoint(mx1680){
+                        max-width: 440px;
+                        width: 100%;
+                        height: 650px;
+                    }
+                    @include breakpoint(mx1366){
+                        max-width: 454px;
+                        width: 100%;
+                        height: 571px;
+                    }
+                   
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                    .chf-dts{
+                        position: absolute;
+                        bottom: 20px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        gap: 8px;
+                        h3{
+                            @include font-family(32px, 400, 40px);
+                                color:var(--white);
+                                @include breakpoint(mx1680){
+                                    font-size: 28px;
+                                    line-height: 34px;
+                                }
+                                @include breakpoint(mx1366){
+                                    font-size: 24px;
+                                    line-height: 30px;
+                                }
+                        }
+                        p{
+                            @include font-family(16px, 400, 22px);
+                            color:var(--white);
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.about-OurMission{
+    margin-bottom: 60px;
+    margin-top: 60px;
+    @include breakpoint(mx1680){
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    @include breakpoint(mx1366){
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    @include breakpoint(mx991){
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    @include breakpoint(mx800){
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    @include breakpoint(mx680){
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .template-containerMaxWth{
+        .abt-mission-all{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 118px;
+            background: #F5F7FD;
+            border-radius: 30px;
+            gap: 130px;
+            @include breakpoint(mx1680){
+                padding: 80px;
+                gap: 80px;
+            }
+            @include breakpoint(mx1366){
+                padding: 60px;
+                gap: 60px;
+                border-radius: 20px;
+            }
+            @include breakpoint(mx991){
+                padding: 40px;
+                gap: 30px;
+                position: relative;
+            }
+            @include breakpoint(mx800){
+                padding: 40px;
+                gap: 30px;
+            }
+            @include breakpoint(mx767){
+                border-radius: 16px;
+            }
+            @include breakpoint(mx680){
+                padding: 30px;
+                gap: 20px;
+                border-radius: 10px;
+            }
+            @include breakpoint(mx480){
+                padding: 20px;
+            }
+            .Our-mission-left{
+                .mission-breaf{
+                    margin-bottom: 80px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 12px;
+                    @include breakpoint(mx1680){
+                        margin-bottom: 60px;
+                    }
+                    @include breakpoint(mx1366){
+                        margin-bottom: 40px;
+                    }
+                    @include breakpoint(mx991){
+                        margin-bottom: 30px;
+                    }
+                    @include breakpoint(mx800){
+                        margin-bottom: 30px;
+                    }
+                    @include breakpoint(mx680){
+                        margin-bottom: 20px;
+                    }
+                    h2{
+                        @include font-family(32px, 600, 40px);
+                        @include breakpoint(mx1366){
+                            font-size: 28px;
+                            line-height: 34px;
+                        }
+                        @include breakpoint(mx991){
+                            font-size: 26px;
+                            line-height: 32px;
+                        }
+                        @include breakpoint(mx800){
+                            font-size: 24px;
+                            line-height: 28px;
+                        }
+                        @include breakpoint(mx680){
+                            font-size: 20px;
+                            line-height: 26px;
+                        }
+                        @include breakpoint(mx480){
+                            font-size: 18px;
+                            line-height: 26px;
+                        }
+                    }
+                }
+                .Our-mission-left-tp{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 50px;
+                    @include breakpoint(mx1680){
+                        gap: 40px
+                    }
+                    @include breakpoint(mx1366){
+                        gap: 30px
+                    }
+                    @include breakpoint(mx991){
+                        gap: 24px
+                    }
+                    @include breakpoint(mx800){
+                        gap: 24px
+                    }
+                    @include breakpoint(mx680){
+                        gap: 20px
+                    }
+                    h3{
+                        @include font-family(24px, 600, 30px);
+                        padding-bottom: 12px;
+                        @include breakpoint(mx1366){
+                            font-size: 22px;
+                            line-height: 28px;
+                            padding-bottom: 10px;
+                        }
+                        @include breakpoint(mx991){
+                            font-size: 20px;
+                            line-height: 26px;
+                            padding-bottom: 0;
+                        }
+                        @include breakpoint(mx680){
+                            font-size: 18px;
+                            line-height: 24px;
+
+                        }
+                    }
+                    .our-mission-all{
+                        .our-missons{
+                            display: flex;
+                            gap: 24px;
+                            @include breakpoint(mx991){
+                                gap: 18px;
+                                padding-bottom: 12px;
+                            }
+                            @include breakpoint(mx800){
+                                gap: 14px;
+                                padding-bottom: 12px;
+                            }
+                            @include breakpoint(mx680){
+                                gap: 12px;
+                                padding-bottom: 6px;
+                            }
+                            span{
+                                svg{
+                                    width: 28px;
+                                    height: 28px;
+                                    @include breakpoint(mx1366){
+                                        width: 22px;
+                                        height: 22px;
+                                    }
+                                    @include breakpoint(mx991){
+                                        width: 18px;
+                                        height: 18px;
+                                    }
+                                    @include breakpoint(mx800){
+                                        width: 18px;
+                                        height: 18px;
+                                    }
+                                    @include breakpoint(mx680){
+                                        width: 16px;
+                                        height: 16px;
+                                    }
+                                }
+                            }
+                            p{
+                                display: -webkit-box;
+                                -webkit-box-orient: vertical;
+                                -webkit-line-clamp: 4; /* Limit to 3 lines */
+                                overflow: hidden; /* Hide overflow text */
+                                text-overflow: ellipsis; /* Add ellipsis for overflow text */
+                                color: var(--c3e);
+                            }
+                        }
+                        p{
+                            padding-left: 52px;
+                        }
+                    }
+                }
+            }
+            .Our-mission-right{
+                @include breakpoint(mx991){
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                }
+                @include breakpoint(mx991){
+                    display: none;
+                }
+                img{
+                    max-width: 518px;
+                    height: 566px;
+                    @include breakpoint(mx1680){
+                        max-width: 413px;
+                        height: 460px;
+                    }
+                    @include breakpoint(mx1450){
+                        max-width: 390px;
+                        height: 428px;
+                    }
+                    @include breakpoint(mx1366){
+                        max-width: 343px;
+                        height: 374px;
+                    }
+                    @include breakpoint(mx1199){
+                        max-width: 284px;
+                        height: 210px;                
+                    }
+                    @include breakpoint(mx991){
+                        max-width: 216px;
+                        height: 101px;        
+                    }
+                }
+            }
+        }
+        #logo-carousel{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            @include breakpoint(mx1680){
+                margin-top: 80px;
+                margin-bottom: 80px;
+            }
+            @include breakpoint(mx1366){
+                margin-top: 70px;
+                margin-bottom: 70px;
+            }
+            @include breakpoint(mx991){
+                margin-top: 50px;
+                margin-bottom: 50px;
+            }
+            @include breakpoint(mx800){
+                margin-top: 40px;
+                margin-bottom: 40px;
+            }
+            @include breakpoint(mx680){
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+
+            &::before{
+                content: "";
+                position: absolute;
+                top: 0;
+                width: 24%;
+                height: 100%;
+                z-index: 1;
+                left: 0;
+                background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+            }
+            &::after {
+                content: "";
+                position: absolute;
+                top: 0;
+                width: 24%;
+                height: 100%;
+                z-index: 1;
+                right: 0;
+                background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+              }
+            .item{
+                img{
+                    filter: grayscale(90%); /* Makes the image black and white */
+                }
+            }
+            .owl-nav{
+                display: none;
+            }
+            .owl-dots{
+                display: none;
+            }
+        }
+    }
+}
